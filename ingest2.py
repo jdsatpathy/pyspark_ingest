@@ -5,7 +5,7 @@ import sys
 import logging
 import os
 
-# import my_logger
+# import my_logger # I dont want my_logger
 # sys.path.append(".")
 
 def my_logger():
