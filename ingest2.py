@@ -102,7 +102,7 @@ if (__name__ == '__main__'):
     spark = spark_session_creator(env_prop, env, conf)
 
     #env_prop = cp.ConfigParser()
-    logger = my_logger()
+    logger = my_logger() # This is my logger creation
     logger.warning(str(os.path.dirname(__file__)) + "application.properties")
     #env_prop.read(os.path.dirname("") + "/application.properties")
     #env = sys.argv[1]
